@@ -1,2 +1,0 @@
-SIMPLER GAME
-Next.js
