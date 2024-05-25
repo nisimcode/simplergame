@@ -2,7 +2,7 @@ export const saveHighScore =(highScore) => {
   try {
     localStorage.setItem("HighScore", highScore.toString());
   } catch (e) {
-    alert("Error: " + e.message);
+    console.log(e.message)
   }
 };
 
@@ -15,6 +15,5 @@ export const loadHighScore = () => {
       return "0";
     }
   } catch (e) {
-    alert("Error: " + e.message);
-  }
+    console.log(e.message)}
 };
